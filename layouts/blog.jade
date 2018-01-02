@@ -1,0 +1,13 @@
+extends layout
+
+block content
+
+  br
+  h3 #{title}
+  ul
+    each blog in collections.blog
+      li
+        a(href="/" + blog.path + "/")= blog.title
+        span  - #{moment(blog.date).format('MMMM Do YYYY')}
+  div!= contents
+

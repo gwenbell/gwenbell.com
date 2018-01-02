@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "Alegreya Serif";
+  src:url("/fonts/Alegreya-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  src:url("/fonts/AlegreyaSans-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  src:url("/fonts/AlegreyaSans-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  src:url("/fonts/AlegreyaSans-Bold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/opensans-light-webfont.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/opensans-italic-webfont.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/opensans-regular-webfont.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/opensans-bold-webfont.ttf");
+  font-weight: 600;
+}
+
+p,
+body,
+li {
+  background: #191919;
+  font-size: 1.0em;
+  font-family: 'Open Sans', monospace, arial, serif;
+  font-weight: 400;
+}
+
+body.front {
+  background-size: cover;
+  font-size: 1.0em;
+}
+
+h1 {
+  font-family: 'Alegreya Sans', 'Open Sans', monospace, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-family: 'Alegreya Sans', 'Open Sans', monospace, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+h3 {
+  font-weight: 400;
+  color: #fff;
+}
+
+h4, h5, h6 {
+  font-weight: 400;
+  color: #fff;
+}
+
+h6 {
+  font-size: 1.0em;
+  font-weight: 400
+}
+
+.greeting {
+  font-weight: 400;
+  color: #797979;
+  animation: fadein 2s;
+  line-height: 1.5;
+}
+
+a:link,
+a:visited {
+	color: #fff;
+	text-decoration: none;
+	transition: background-color .15s linear, color .15s linear;
+}
+
+a:hover { 
+    color: #3c3c3b; 
+    text-decoration: underline;
+}
+
+
+blockquote p {
+  font-size: 1.1em;
+  margin: .2em .2em;
+  padding-left: .2em;
+} 
+
+mark {
+  color: #002b36;
+  background: #f3f315; 
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+p.gigante {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4em;
+  text-decoration: none;
+  color: #CC0000;
+}
+p.micro {
+  font-family: 'Open Sans', monospace, sans-serif;
+  font-size: .8em;
+}
+
+.profile {
+  margin-bottom: 0px;
+}
+
+.full {
+  margin: 0px;
+}
+
+.footnotes {
+  font-family: monospace, sans-serif;
+  font-size: .8em;
+}
+
+.navbar {
+   background: #fff;
+}
+
+.navbar li,
+.navbar ul {
+   color: #fff;
+   font-weight: normal;
+   font-size: 2em;
+}
+
+
+iframe {
+ padding: 0;
+ margin: 0;
+ height: 80em; 
+ width: 100%;
+ border: 1px;
+}
