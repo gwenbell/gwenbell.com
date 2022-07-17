@@ -1,4 +1,4 @@
 ### title: ReadMe
-#### date: 2018-01-02
+#### date: 2022-07-17
 
-Personal site for Gwen Bell. I build with Node.js, commit with Git and push to github. Merge requests welcome.
+Personal site for Gwen Bell. I build with Deno, commit with Git and am a perma-learner.
